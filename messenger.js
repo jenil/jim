@@ -95,7 +95,7 @@ function prepareMessage(id, login)
 {
   $("#msg div:jqmData(role=header) h1").text(login);
   $("#msg input").val("");
-  $.mobile.changePage ($("#msg"), { transition : "pop" });
+  $.mobile.changePage ($("#msg"), { transition: "pop" });
   console.log(login);
   $("#msg div:jqmData(role=content) a.ok").unbind().bind("click", function (event)
   {
