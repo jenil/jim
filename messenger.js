@@ -22,7 +22,7 @@ $("#chats").bind("pagecreate", function ()
   $(this).find("div:jqmData(role='header') a#home")
             .bind("click", function (event)
   {
-    $.mobile.changePage($("#home"), { transition : "slide" });
+    $.mobile.changePage($("#home"), { transition: "flow" });
   });
   
   $(this).find("div:jqmData(role='header') a#clear").bind("click", function (event)
@@ -40,7 +40,7 @@ $("#login, #msg").bind("dialogcreate", function()
 
 function setLogin()
 {
-  $.mobile.changePage($("#login"), { transition : "pop" });
+  $.mobile.changePage($("#login"), { transition: "flow" });
   $("#login a.ok").bind("click", function (event)
   {
     var login = $("#login input").val();
