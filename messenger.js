@@ -1,5 +1,4 @@
-//var ajaxURL = "http://www.jgog.in/jIM/ajax";
-var ajaxURL = "jgog/jIM/ajax";
+var ajaxURL = "http://www.jgog.in/jIM/ajax";
 
 $("#home").bind("pagecreate", function ()
 {
